@@ -1,0 +1,17 @@
+/*color pallete*/
+/*font*/
+@font-face {
+  font-family: "VT323";
+  src: local("VT323"), url("resources/fonts/VT323-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* style*/
+h1 {
+  display: flex;
+  justify-content: center;
+  background-color: #E0FBFC;
+  border: 50px ridge #253237;
+  border-radius: 10px;
+  font-family: "VT323", monospace;
+  font-size: 3em; }
