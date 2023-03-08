@@ -25,3 +25,19 @@ h1 {
   font-family: $VT323;
   font-size: 3em;
 }
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  a {
+    text-decoration: none;
+    .testbtn {
+      justify-content: center;
+      padding: 0.5em;
+      background-color: $powderBlue;
+      color: black;
+      border: 1px solid $gunMetal;
+      border-radius: 10px;
+    }
+  }
+}
