@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width">
   <title>BR33DL0V3 Buttons</title>
   <link href="index.css" rel="stylesheet" type="text/css" />
+  <link href=light-darkToggle.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -14,8 +15,19 @@
     <a href="testbtn/testbtn.html"><btn class="btn testbtn" id="testbtn">testbtn</btn></a>
 
   </div>
-  <script src="index.js"></script>
 
+  <div class="container">
+  <label class="switcher">
+    <input type="checkbox" name="theme-switcher">
+    <div>
+      <i class="fas fa-sun"></i>
+      <i class="fas fa-arrow-right arrow"></i>
+      <i class="fas fa-moon"></i>
+    </div>
+  </label>
+</div>
+  <script src="index.js"></script>
+  <script src="light-darkToggle.js"></script>
  
 
 </body>
